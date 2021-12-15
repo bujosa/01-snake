@@ -46,6 +46,7 @@ while True:
 
     snake.insert(0, new_head)
 
+    # Make a decision to eat food or not
     if snake[0] == food:
         food = None
         while food is None:
